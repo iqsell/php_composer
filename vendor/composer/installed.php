@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'localhostj/composer_lab',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'f953983e314d72a0fc563fcb1c37411a250d70e7',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'localhostj/composer_lab' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'f953983e314d72a0fc563fcb1c37411a250d70e7',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'phpstan/phpstan' => array(
+            'pretty_version' => '1.11.1',
+            'version' => '1.11.1.0',
+            'reference' => 'e524358f930e41a2b4cca1320e3b04fc26b39e0b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpstan/phpstan',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
+        'squizlabs/php_codesniffer' => array(
+            'pretty_version' => '3.9.0',
+            'version' => '3.9.0.0',
+            'reference' => 'd63cee4890a8afaf86a22e51ad4d97c91dd4579b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../squizlabs/php_codesniffer',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
+    ),
+);

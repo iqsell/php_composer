@@ -1,0 +1,19 @@
+{
+    "name": "localhostj/composer_lab",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "PizzaStore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kolesnikov Alexander",
+            "email": "gwelki89@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^1.11",
+        "squizlabs/php_codesniffer": "3.9"
+    }
+}
